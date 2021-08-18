@@ -7,10 +7,12 @@
   volume    = {2016},
   year      = {2016},
 }
-@misc{kickstartAI,
-title = {{Kickstart AI}},
-url = {https://www.kickstartai.nl/},
-year = {2019}
+
+@Online{kickstartAI,
+  title  = {{Kickstart AI}},
+  url    = {https://www.kickstartai.nl/},
+  groups = {Ethical AI},
+  year   = {2019},
 }
 
 @Misc{Bruton2012,
@@ -1382,14 +1384,14 @@ urldate = {2020-06-30},
 year = {2020}
 }
 
-@Misc{Commission2020,
+@TechReport{Commission2020,
   author      = {{European Commission}},
+  institution = {European Commission},
   title       = {{White Paper On Artificial Intelligence - A European approach to excellence and trust}},
+  pages       = {27},
   url         = {https://ec.europa.eu/info/sites/info/files/commission-white-paper-artificial-intelligence-feb2020{\_}en.pdf},
   address     = {Brussels},
   groups      = {Ethical AI},
-  institution = {European Commission},
-  pages       = {27},
   year        = {2020},
 }
 @misc{EuropeanDigitalRights2020,
@@ -2050,10 +2052,10 @@ year = {2017}
 }
 
 @TechReport{HLEG-AI2019,
-  author      = {{Pekka, Ala-Pietilä et al.}},
+  author      = {{High-Level Expert Group on Artificial Intelligence}},
   date        = {2019-04-08},
   institution = {European Commission},
-  title       = {{The European Commissionś high-level expert group on Artificial Intelligence: Ethics guidelines for trustworthy AI}},
+  title       = {{The European Commission's high-level expert group on Artificial Intelligence: Ethics guidelines for trustworthy AI}},
   pages       = {1--39},
   groups      = {Ethical AI},
   keywords    = {HLEG},
@@ -2785,7 +2787,7 @@ title = {{Bartleby, The Scrivener: A Story of Wall-Street}},
 year = {2009}
 }
 
-@Misc{MicrosoftAIPrinciples,
+@Online{MicrosoftAIPrinciples,
   author  = {Microsoft},
   title   = {{Microsoft AI principles}},
   url     = {https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1:primaryr6},
@@ -3083,7 +3085,7 @@ volume = {81},
 year = {2011}
 }
 
-@Misc{Pichai2018,
+@Online{Pichai2018,
   author    = {Pichai, Sundar},
   title     = {{AI at Google: our principles}},
   url       = {https://www.blog.google/technology/ai/ai-principles/},
@@ -4285,17 +4287,20 @@ year = {2016}
 }
 
 @Online{AlgorithmWatch2019,
-  author = {{Algorithm Watch}},
-  date   = {2019-04-09},
-  title  = {Launch of our ‘AI Ethics Guidelines Global Inventory’},
-  url    = {https://algorithmwatch.org/en/launch-of-our-ai-ethics-guidelines-global-inventory/},
+  author  = {{AlgorithmWatch}},
+  date    = {2019-04-09},
+  title   = {Launch of our ‘AI Ethics Guidelines Global Inventory’},
+  url     = {https://algorithmwatch.org/en/launch-of-our-ai-ethics-guidelines-global-inventory/},
+  urldate = {2021-08-04},
+  groups  = {Ethical AI},
 }
 
 @Online{AlgorithmWatch,
-  author  = {{Algorithm Watch}},
+  author  = {{AlgorithmWatch}},
   title   = {AI Ethics Guidelines Global Inventory},
   url     = {https://inventory.algorithmwatch.org/},
   urldate = {2021-03-16},
+  groups  = {Ethical AI},
 }
 
 @InProceedings{Bietti2020,
@@ -4367,7 +4372,7 @@ year = {2016}
   keywords     = {Explainable Artificial Intelligence, Machine Learning, Deep Learning, Data Fusion, Interpretability, Comprehensibility, Transparency, Privacy, Fairness, Accountability, Responsible Artificial Intelligence},
 }
 
-@Misc{Leslie2019,
+@TechReport{Leslie2019,
   author    = {Leslie, David},
   date      = {2019-06},
   title     = {{Understanding artificial intelligence ethics and safety: A guide for the responsible design and implementation of AI systems in the public sector}},
@@ -4396,7 +4401,7 @@ year = {2016}
   numpages  = {12},
 }
 
-@Article{10.1145/3430368,
+@Article{Canca2020,
   author       = {Canca, Cansu},
   date         = {2020-11},
   journaltitle = {Commun. ACM},
@@ -4483,19 +4488,6 @@ year = {2016}
   timestamp    = {Tue, 28 May 2019 12:48:08 +0200},
 }
 
-@InProceedings{NIPS2017_8a20a862,
-  author    = {Lundberg, Scott M and Lee, Su-In},
-  booktitle = {Advances in Neural Information Processing Systems},
-  date      = {2017},
-  title     = {A Unified Approach to Interpreting Model Predictions},
-  editor    = {I. Guyon and U. V. Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
-  publisher = {Curran Associates, Inc.},
-  url       = {https://proceedings.neurips.cc/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf},
-  volume    = {30},
-  groups    = {Ethical AI},
-  keywords  = {interpretability, explainability},
-}
-
 @Article{Lundberg2020,
   author       = {Lundberg, Scott M. and Erion, Gabriel and Chen, Hugh and DeGrave, Alex and Prutkin, Jordan M. and Nair, Bala and Katz, Ronit and Himmelfarb, Jonathan and Bansal, Nisha and Lee, Su-In},
   date         = {2020},
@@ -4532,7 +4524,7 @@ year = {2016}
 @Article{Floridi2019,
   author       = {Floridi, Luciano},
   date         = {2019},
-  journaltitle = {Philosophy & Technology},
+  journaltitle = {Philosophy {\&} Technology},
   title        = {Translating Principles into Practices of Digital Ethics: Five Risks of Being Unethical},
   doi          = {10.1007/s13347-019-00354-x},
   issn         = {2210-5441},
@@ -4626,7 +4618,6 @@ year = {2016}
   eprint       = {1810.03993},
   eprinttype   = {arXiv},
   url          = {http://arxiv.org/abs/1810.03993},
-  volume       = {abs/1810.03993},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   biburl       = {https://dblp.org/rec/journals/corr/abs-1810-03993.bib},
   groups       = {Ethical AI},
@@ -4642,7 +4633,7 @@ year = {2016}
   eprinttype  = {arXiv},
   groups      = {Ethical AI},
 }
-o
+
 
 @InProceedings{Agarwal2019,
   author    = {Agarwal, Alekh and Dudik, Miroslav and Wu, Zhiwei Steven},
@@ -4781,7 +4772,7 @@ o
   pages     = {598-617},
 }
 
-@Misc{holland2018dataset,
+@Misc{Holland2018,
   author      = {Sarah Holland and Ahmed Hosny and Sarah Newman and Joshua Joseph and Kasia Chmielinski},
   date        = {2018},
   title       = {The Dataset Nutrition Label: A Framework To Drive Higher Data Quality Standards},
@@ -4841,7 +4832,7 @@ o
 @Article{Castro2009,
   author       = {Javier Castro and Daniel Gómez and Juan Tejada},
   date         = {2009},
-  journaltitle = {Computers & Operations Research},
+  journaltitle = {Computers {\&} Operations Research},
   title        = {Polynomial calculation of the Shapley value based on sampling},
   doi          = {https://doi.org/10.1016/j.cor.2008.04.004},
   issn         = {0305-0548},
@@ -4924,7 +4915,7 @@ o
   author       = {Zafar, Muhammad Bilal and Valera, Isabel and Gomez Rodriguez, Manuel and Gummadi, Krishna P.},
   date         = {2017-04},
   journaltitle = {Proceedings of the 26th International Conference on World Wide Web},
-  title        = {Fairness Beyond Disparate Treatment & Disparate Impact},
+  title        = {Fairness Beyond Disparate Treatment {\&} Disparate Impact},
   doi          = {10.1145/3038912.3052660},
   url          = {http://dx.doi.org/10.1145/3038912.3052660},
   groups       = {Ethical AI},
@@ -4952,9 +4943,304 @@ o
   groups      = {Ethical AI},
 }
 
+@Online{SAP2018,
+  author   = {Machmeier, Corinna},
+  date     = {2018-09-18},
+  title    = {SAP’s Guiding Principles for Artificial Intelligence},
+  url      = {https://news.sap.com/2018/09/sap-guiding-principles-for-artificial-intelligence/},
+  urldate  = {2021-08-04},
+  abstract = {Recognizing the significant impact of AI on people, our customers, and wider society, SAP designed these guiding principles to steer the development and deployment of our AI software to help the world run better and improve people’s lives.
+
+For us, these guidelines are a commitment to move beyond what is legally required and to begin a deep and continuous engagement with the wider ethical and socioeconomic challenges of AI. We look forward to expanding our conversations with customers, partners, employees, legislative bodies, and civil society; and to making our guiding principles an evolving reflection on these discussions and the ever-changing technological landscape},
+  groups   = {Ethical AI},
+}
+
+@Online{AlgorithmWatch2020,
+  author  = {{AlgorithmWatch}},
+  date    = {2020-04-28},
+  title   = {In the realm of paper tigers – exploring the failings of AI ethics guidelines},
+  url     = {https://algorithmwatch.org/en/ai-ethics-guidelines-inventory-upgrade-2020/},
+  urldate = {2021-08-04},
+  groups  = {Ethical AI},
+}
+
+@Online{DEDA,
+  author  = {{Utrecht Data School}},
+  title   = {De Ethische Data Assistent (DEDA)},
+  url     = {https://dataschool.nl/deda/},
+  urldate = {2021-08-05},
+  groups  = {Ethical AI},
+}
+
+@Book{Molnar2019,
+  author   = {Christoph Molnar},
+  date     = {2019},
+  title    = {Interpretable Machine Learning},
+  note     = {\url{https://christophm.github.io/interpretable-ml-book/}},
+  subtitle = {A Guide for Making Black Box Models Explainable},
+}
+
+@TechReport{HLEGAI2019,
+  author = {{High-Level Expert Group on Artificial Intelligence}},
+  date   = {2019-04-08},
+  title  = {A Definition of AI: Main Capabilities and Disciplines},
+  url    = {https://digital-strategy.ec.europa.eu/en/library/definition-artificial-intelligence-main-capabilities-and-scientific-disciplines},
+  groups = {Ethical AI},
+}
+
+@InProceedings{Westermann2019,
+  author    = {Westermann, Hannes and Walker, Vern R. and Ashley, Kevin D. and Benyekhlef, Karim},
+  booktitle = {Proceedings of the Seventeenth International Conference on Artificial Intelligence and Law},
+  date      = {2019},
+  title     = {Using Factors to Predict and Analyze Landlord-Tenant Decisions to Increase Access to Justice},
+  doi       = {10.1145/3322640.3326732},
+  isbn      = {9781450367547},
+  location  = {Montreal, QC, Canada},
+  pages     = {133–142},
+  publisher = {Association for Computing Machinery},
+  series    = {ICAIL '19},
+  url       = {https://doi.org/10.1145/3322640.3326732},
+  abstract  = {This paper reports results from the JusticeBot Project, in which we analyzed two datasets
+drawn from 1 million written decisions from the R\'{e}gie du logement du Qu\'{e}bec. Using
+an empirical methodology, we identified 44 factors that occur in disputes where the
+tenant seeks a remedy due to problems with the rented apartment, such as the existence
+of bedbugs, high noise levels or problems with insulation. In the first dataset, we
+used these factors to tag 149 cases. We found a correlation between how many factors
+are found in a case and how likely the judge is to award rent reduction to a tenant;
+the amount of reduction was also higher in cases with more factors. For the second
+dataset (39 cases with bedbugs, drawn from the first dataset), we developed in-depth
+factors and used them to tag the cases. We found a number of plausible correlations,
+such as the average damage award being higher in cases with infestations of high intensity.
+Finally, in predicting the decision of the judge using the factors present in a case,
+the results were similar to the baselines or slightly above. We discuss the possible
+reasons for this, and why the approach shows promise in providing useful information
+to lay people and lawyers.},
+  address   = {New York, NY, USA},
+  groups    = {AI and Law},
+  keywords  = {Factors, Machine Learning, Case Prediction, Access to Justice, Chatbot},
+  numpages  = {10},
+}
+
+@InProceedings{Savelka2021,
+  author    = {Savelka, Jaromir and Westermann, Hannes and Benyekhlef, Karim and Alexander, Charlotte S. and Grant, Jayla C. and Amariles, David Restrepo and Hamdani, Rajaa El and Mee\`{u}s, S\'{e}bastien and Troussel, Aurore and Araszkiewicz, Micha\l{} and Ashley, Kevin D. and Ashley, Alexandra and Branting, Karl and Falduti, Mattia and Grabmair, Matthias and Hara\v{s}ta, Jakub and Novotn\'{a}, Tereza and Tippett, Elizabeth and Johnson, Shiwanni},
+  booktitle = {Proceedings of the Eighteenth International Conference on Artificial Intelligence and Law},
+  date      = {2021},
+  title     = {Lex Rosetta: Transfer of Predictive Models across Languages, Jurisdictions, and Legal Domains},
+  doi       = {10.1145/3462757.3466149},
+  isbn      = {9781450385268},
+  location  = {S\~{a}o Paulo, Brazil},
+  pages     = {129–138},
+  publisher = {Association for Computing Machinery},
+  series    = {ICAIL '21},
+  url       = {https://doi.org/10.1145/3462757.3466149},
+  abstract  = {In this paper, we examine the use of multi-lingual sentence embeddings to transfer
+predictive models for functional segmentation of adjudicatory decisions across jurisdictions,
+legal systems (common and civil law), languages, and domains (i.e. contexts). Mechanisms
+for utilizing linguistic resources outside of their original context have significant
+potential benefits in AI &amp; Law because differences between legal systems, languages,
+or traditions often block wider adoption of research outcomes. We analyze the use
+of Language-Agnostic Sentence Representations in sequence labeling models using Gated
+Recurrent Units (GRUs) that are transferable across languages. To investigate transfer
+between different contexts we developed an annotation scheme for functional segmentation
+of adjudicatory decisions. We found that models generalize beyond the contexts on
+which they were trained (e.g., a model trained on administrative decisions from the
+US can be applied to criminal law decisions from Italy). Further, we found that training
+the models on multiple contexts increases robustness and improves overall performance
+when evaluating on previously unseen contexts. Finally, we found that pooling the
+training data from all the contexts enhances the models' in-context performance.},
+  address   = {New York, NY, USA},
+  groups    = {AI and Law},
+  keywords  = {domain adaptation, annotation, transfer learning, document segmentation, multi-lingual sentence embeddings, adjudicatory decisions},
+  numpages  = {10},
+}
+
+@InBook{Prakken1997,
+  author    = {Prakken, H. and Sartor, G.},
+  booktitle = {Logical Models of Legal Argumentation},
+  date      = {1997},
+  title     = {A Dialectical Model of Assessing Conflicting Arguments in Legal Reasoning},
+  doi       = {10.1007/978-94-011-5668-4_6},
+  editor    = {Prakken, Henry and Sartor, Giovanni},
+  isbn      = {978-94-011-5668-4},
+  location  = {Dordrecht},
+  pages     = {175--211},
+  publisher = {Springer Netherlands},
+  url       = {https://doi.org/10.1007/978-94-011-5668-4_6},
+  abstract  = {Inspired by legal reasoning, this paper presents a formal framework for assessing conflicting arguments. Its use is illustrated with applications to realistic legal examples, and the potential for implementation is discussed. The framework has the form of a logical system for defeasible argumentation. Its language, which is of a logic-programming-like nature, has both weak and explicit negation, and conflicts between arguments are decided with the help of priorities on the rules. An important feature of the system is that these priorities are not fixed, but are themselves defeasibly derived as conclusions within the system. Thus debates on the choice between conflicting arguments can also be modelled.},
+  groups    = {AI and Law},
+}
+
+@Article{Atkinson2007,
+  author       = {Katie Atkinson and Trevor Bench-Capon},
+  date         = {2007},
+  journaltitle = {Artificial Intelligence},
+  title        = {Practical reasoning as presumptive argumentation using action based alternating transition systems},
+  doi          = {https://doi.org/10.1016/j.artint.2007.04.009},
+  issn         = {0004-3702},
+  note         = {Argumentation in Artificial Intelligence},
+  number       = {10},
+  pages        = {855-874},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0004370207000689},
+  volume       = {171},
+  abstract     = {In this paper we describe an approach to practical reasoning, reasoning about what it is best for a particular agent to do in a given situation, based on presumptive justifications of action through the instantiation of an argument scheme, which is then subject to examination through a series of critical questions. We identify three particular aspects of practical reasoning which distinguish it from theoretical reasoning. We next provide an argument scheme and an associated set of critical questions which is able to capture these features. In order that both the argument scheme and the critical questions can be given precise interpretations we use the semantic structure of an Action-Based Alternating Transition System as the basis for their definition. We then work through a detailed example to show how this approach to practical reasoning can be applied to a problem solving situation, and briefly describe some other previous applications of the general approach. In a second example we relate our account to the social laws paradigm for co-ordinating multi-agent systems. The contribution of the paper is to provide firm foundations for an approach to practical reasoning based on presumptive argument in terms of a well-known model for representing the effects of actions of a group of agents.},
+  groups       = {AI and Law},
+  keywords     = {Argumentation, Practical reasoning, Value based argumentation, Argument schemes, AATS},
+}
+
+@InBook{Wyner2010,
+  author    = {Wyner, Adam and Mochales-Palau, Raquel and Moens, Marie-Francine and Milward, David},
+  booktitle = {Semantic Processing of Legal Texts: Where the Language of Law Meets the Law of Language},
+  date      = {2010},
+  title     = {Approaches to Text Mining Arguments from Legal Cases},
+  doi       = {10.1007/978-3-642-12837-0_4},
+  editor    = {Francesconi, Enrico and Montemagni, Simonetta and Peters, Wim and Tiscornia, Daniela},
+  isbn      = {978-3-642-12837-0},
+  location  = {Berlin, Heidelberg},
+  pages     = {60--79},
+  publisher = {Springer Berlin Heidelberg},
+  url       = {https://doi.org/10.1007/978-3-642-12837-0_4},
+  abstract  = {This paper describes recent approaches using text-mining to automatically profile and extract arguments from legal cases. We outline some of the background context and motivations. We then turn to consider issues related to the construction and composition of corpora of legal cases. We show how a Context-Free Grammar can be used to extract arguments, and how ontologies and Natural Language Processing can identify complex information such as case factors and participant roles. Together the results bring us closer to automatic identification of legal arguments.},
+  groups    = {AI and Law},
+}
+
+@TechReport{MeyerVitali2019,
+  author      = {Meyer-Vitali, A. P. and Bakker, R. M. and van Bekkum, M. A. and de Boer, M. and Burghouts, G. and van Diggelen, J. and Dijk, J. and Grappiolo, C. and de Greeff, J. and Huizing, A. and Raaijmakers, S.},
+  date        = {2019},
+  institution = {TNO},
+  title       = {Hybrid AI: White Paper},
+  type        = {resreport},
+  url         = {https://repository.tno.nl//islandora/object/uuid:510e0747-30f4-4af4-9447-9330b7bd4b47},
+}
+
+@Article{Stepin2021,
+  author       = {Stepin, Ilia and Alonso, Jose M. and Catala, Alejandro and Pereira-Fariña, Martín},
+  date         = {2021},
+  journaltitle = {IEEE Access},
+  title        = {A Survey of Contrastive and Counterfactual Explanation Generation Methods for Explainable Artificial Intelligence},
+  doi          = {10.1109/ACCESS.2021.3051315},
+  issn         = {2169-3536},
+  pages        = {11974-12001},
+  volume       = {9},
+  abstract     = {A number of algorithms in the field of artificial intelligence offer poorly interpretable decisions. To disclose the reasoning behind such algorithms, their output can be explained by means of so-called evidence-based (or factual) explanations. Alternatively, contrastive and counterfactual explanations justify why the output of the algorithms is not any different and how it could be changed, respectively. It is of crucial importance to bridge the gap between theoretical approaches to contrastive and counterfactual explanation and the corresponding computational frameworks. In this work we conduct a systematic literature review which provides readers with a thorough and reproducible analysis of the interdisciplinary research field under study. We first examine theoretical foundations of contrastive and counterfactual accounts of explanation. Then, we report the state-of-the-art computational frameworks for contrastive and counterfactual explanation generation. In addition, we analyze how grounded such frameworks are on the insights from the inspected theoretical approaches. As a result, we highlight a variety of properties of the approaches under study and reveal a number of shortcomings thereof. Moreover, we define a taxonomy regarding both theoretical and practical approaches to contrastive and counterfactual explanation.},
+  groups       = {Ethical AI},
+}
+
+@Article{Falakmasir2017,
+  author       = {Falakmasir, Mohammad H. and Ashley, Kevin D.},
+  date         = {2017},
+  journaltitle = {Legal Knowledge and Information Systems},
+  title        = {Utilizing Vector Space Models for Identifying Legal Factors from Text},
+  doi          = {10.3233/978-1-61499-838-9-183},
+  pages        = {193-192},
+  volume       = {302},
+  groups       = {AI and Law},
+}
+
+@InProceedings{Panagis2016,
+  author    = {Panagis, Yannis and Christensen, Martin Lolle and Šadl, Urška},
+  booktitle = {Legal Knowledge and Information Systems},
+  date      = {2016},
+  title     = {On Top of Topics: Leveraging Topic Modeling to Study the Dynamic Case-Law of International Courts},
+  doi       = {10.3233/978-1-61499-726-9-161},
+  editor    = {Bex, Floris and Villata, Serena},
+  pages     = {161-166},
+  publisher = {IOS Press},
+  url       = {https://ebooks.iospress.nl/publication/45751},
+  volume    = {294},
+  groups    = {AI and Law},
+}
+
+@InProceedings{Craandijk2020,
+  author    = {Craandijk, Dennis and Bex, Floris},
+  booktitle = {Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence, {IJCAI-20}},
+  date      = {2020-07},
+  title     = {Deep Learning for Abstract Argumentation Semantics},
+  doi       = {10.24963/ijcai.2020/231},
+  editor    = {Christian Bessiere},
+  pages     = {1667-1673},
+  publisher = {Deep Learning for Abstract Argumentation Semantics},
+  groups    = {AI and Law},
+}
+
+@Article{Nanda2019,
+  author       = {Nanda, Rohan and Siragusa, Giovanni and Di Caro, Luigi and Boella, Guido and Grossio, Lorenzo and Gerbaudo, Marco and Costamagna, Francesco},
+  date         = {2019},
+  journaltitle = {Artificial Intelligence and Law},
+  title        = {Unsupervised and supervised text similarity systems for automated identification of national implementing measures of European directives},
+  doi          = {10.1007/s10506-018-9236-y},
+  issn         = {1572-8382},
+  number       = {2},
+  pages        = {199--225},
+  url          = {https://doi.org/10.1007/s10506-018-9236-y},
+  volume       = {27},
+  abstract     = {The automated identification of national implementations (NIMs) of European directives by text similarity techniques has shown promising preliminary results. Previous works have proposed and utilized unsupervised lexical and semantic similarity techniques based on vector space models, latent semantic analysis and topic models. However, these techniques were evaluated on a small multilingual corpus of directives and NIMs. In this paper, we utilize word and paragraph embedding models learned by shallow neural networks from a multilingual legal corpus of European directives and national legislation (from Ireland, Luxembourg and Italy) to develop unsupervised semantic similarity systems to identify transpositions. We evaluate these models and compare their results with the previous unsupervised methods on a multilingual test corpus of 43 Directives and their corresponding NIMs. We also develop supervised machine learning models to identify transpositions and compare their performance with different feature sets.},
+  groups       = {AI and Law},
+  refid        = {Nanda2019},
+}
+
+@InProceedings{Landthaler2016,
+  author    = {Landthaler, Jörg and Waltl, Bernhard and Holl, Patrick and Matthes, Florian},
+  booktitle = {Legal Knowledge and Information Systems},
+  date      = {2016},
+  title     = {Extending Full Text Search for Legal Document Collections Using WordEmbeddings},
+  doi       = {10.3233/978-1-61499-726-9-161},
+  editor    = {Bex, Floris and Villata, Serena},
+  pages     = {73-83},
+  publisher = {IOS Press},
+  url       = {https://ebooks.iospress.nl/publication/45751},
+  volume    = {294},
+  groups    = {AI and Law},
+}
+
+@Article{Medvedeva2020,
+  author       = {Medvedeva, Masha and Vols, Michel and Wieling, Martijn},
+  date         = {2020},
+  journaltitle = {Artificial Intelligence and Law},
+  title        = {Using machine learning to predict decisions of the European Court of Human Rights},
+  doi          = {10.1007/s10506-019-09255-y},
+  issn         = {1572-8382},
+  number       = {2},
+  pages        = {237--266},
+  url          = {https://doi.org/10.1007/s10506-019-09255-y},
+  volume       = {28},
+  abstract     = {When courts started publishing judgements, big data analysis (i.e. large-scale statistical analysis of case law and machine learning) within the legal domain became possible. By taking data from the European Court of Human Rights as an example, we investigate how natural language processing tools can be used to analyse texts of the court proceedings in order to automatically predict (future) judicial decisions. With an average accuracy of 75% in predicting the violation of 9 articles of the European Convention on Human Rights our (relatively simple) approach highlights the potential of machine learning approaches in the legal domain. We show, however, that predicting decisions for future cases based on the cases from the past negatively impacts performance (average accuracy range from 58 to 68%). Furthermore, we demonstrate that we can achieve a relatively high classification performance (average accuracy of 65%) when predicting outcomes based only on the surnames of the judges that try the case.},
+  groups       = {AI and Law},
+  refid        = {Medvedeva2020},
+}
+
+@Article{Aubaid2018,
+  author = {Aubaid, Asmaa and Mishra, Alok},
+  date   = {2018-11},
+  title  = {Text Classification Using Word Embedding in Rule-Based Methodologies: A Systematic Mapping},
+  doi    = {10.18421/TEM74-31},
+  pages  = {902-914},
+  volume = {7},
+  groups = {AI and Law},
+}
+
+@InProceedings{Ferre2018,
+  author    = {Ferr{\'e}, Arnaud and Del{\'e}ger, Louise and Zweigenbaum, Pierre and N{\'e}dellec, Claire},
+  booktitle = {Proceedings of the Eleventh International Conference on Language Resources and Evaluation ({LREC} 2018)},
+  date      = {2018-05},
+  title     = {Combining rule-based and embedding-based approaches to normalize textual entities with an ontology},
+  location  = {Miyazaki, Japan},
+  publisher = {European Language Resources Association (ELRA)},
+  url       = {https://aclanthology.org/L18-1543},
+  groups    = {AI and Law},
+}
+
+@InProceedings{Jang2019,
+  author = {Kyoungrok Jang and Sung-Hyon Myaeng and Hee-Cheol Seo and Joohee Park},
+  date   = {2019},
+  title  = {Selection and Interpretation of Embedding Subspace forQuery Classification},
+  url    = {https://ears2019.github.io/Jang-EARS2019.pdf},
+  groups = {AI and Law},
+}
+
 @Comment{jabref-meta: databaseType:biblatex;}
 
 @Comment{jabref-meta: grouping:
 0 AllEntriesGroup:;
 1 StaticGroup:Ethical AI\;0\;0\;0x8a8a8aff\;\;Literature related to both AI ethics as well as technical solutions for implementing ethical AI\;;
+1 StaticGroup:AI and Law\;0\;1\;0x8a8a8aff\;\;\;;
 }
