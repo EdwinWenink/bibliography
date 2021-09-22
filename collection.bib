@@ -4214,14 +4214,6 @@ title = {{Homeostasis in nature: Nest building termites and intelligent building
 volume = {3},
 year = {2011}
 }
-@incollection{Wyner2010,
-author = {Wyner, A. and Mochales-Palau, R. and Moens, M.F. and Milward, D.},
-booktitle = {Semantic processing of legal texts},
-pages = {60--79},
-publisher = {Springer},
-title = {{Approaches to text mining arguments from legal cases}},
-year = {2010}
-}
 @book{Young2013,
 address = {London},
 author = {Young, Eugene B and Genosko, Gary and Watson, Janell},
@@ -5067,7 +5059,7 @@ training data from all the contexts enhances the models' in-context performance.
   publisher = {Springer Netherlands},
   url       = {https://doi.org/10.1007/978-94-011-5668-4_6},
   abstract  = {Inspired by legal reasoning, this paper presents a formal framework for assessing conflicting arguments. Its use is illustrated with applications to realistic legal examples, and the potential for implementation is discussed. The framework has the form of a logical system for defeasible argumentation. Its language, which is of a logic-programming-like nature, has both weak and explicit negation, and conflicts between arguments are decided with the help of priorities on the rules. An important feature of the system is that these priorities are not fixed, but are themselves defeasibly derived as conclusions within the system. Thus debates on the choice between conflicting arguments can also be modelled.},
-  groups    = {AI and Law},
+  groups    = {AI and Law, Argument Mining},
 }
 
 @Article{Atkinson2007,
@@ -5100,7 +5092,7 @@ training data from all the contexts enhances the models' in-context performance.
   publisher = {Springer Berlin Heidelberg},
   url       = {https://doi.org/10.1007/978-3-642-12837-0_4},
   abstract  = {This paper describes recent approaches using text-mining to automatically profile and extract arguments from legal cases. We outline some of the background context and motivations. We then turn to consider issues related to the construction and composition of corpora of legal cases. We show how a Context-Free Grammar can be used to extract arguments, and how ontologies and Natural Language Processing can identify complex information such as case factors and participant roles. Together the results bring us closer to automatic identification of legal arguments.},
-  groups    = {AI and Law},
+  groups    = {AI and Law, Argument Mining},
 }
 
 @TechReport{MeyerVitali2019,
@@ -5375,7 +5367,7 @@ Met behulp van deze aldus gecreëerde linked data is ten slotte een statistisch 
   url          = {https://doi.org/10.1007/s10506-010-9104-x},
   volume       = {19},
   abstract     = {Argumentation mining aims to automatically detect, classify and structure argumentation in text. Therefore, argumentation mining is an important part of a complete argumentation analyisis, i.e. understanding the content of serial arguments, their linguistic structure, the relationship between the preceding and following arguments, recognizing the underlying conceptual beliefs, and understanding within the comprehensive coherence of the specific topic. We present different methods to aid argumentation mining, starting with plain argumentation detection and moving forward to a more structural analysis of the detected argumentation. Different state-of-the-art techniques on machine learning and context free grammars are applied to solve the challenges of argumentation mining. We also highlight fundamental questions found during our research and analyse different issues for future research on argumentation mining.},
-  groups       = {AI and Law},
+  groups       = {AI and Law, Argument Mining},
   refid        = {Mochales2011},
 }
 
@@ -5398,12 +5390,156 @@ technology: something that only a few years ago was unthinkable. In this survey 
 we introduce argumentation models and methods, review existing systems and applications,
 and discuss challenges and perspectives of this exciting new research area.},
   articleno    = {10},
-  groups       = {AI and Law},
+  groups       = {AI and Law, Argument Mining},
   issue_date   = {April 2016},
   keywords     = {computational linguistics, social media, machine learning, artificial intelligence, Argumentation mining, knowledge representation},
   location     = {New York, NY, USA},
   numpages     = {25},
   publisher    = {Association for Computing Machinery},
+}
+
+@Article{Knott1994,
+  author       = {Knott, Alistair and Dale, Robert},
+  date         = {1994},
+  journaltitle = {Discourse Processes},
+  title        = {Using linguistic phenomena to motivate a set of coherence relations},
+  doi          = {10.1080/01638539409544883},
+  eprint       = {https://doi.org/10.1080/01638539409544883},
+  number       = {1},
+  pages        = {35-62},
+  url          = {https://doi.org/10.1080/01638539409544883},
+  volume       = {18},
+  abstract     = {The notion that a text is coherent in virtue of the “relations” that hold between the elements of that text has become fairly common currency, both in the study of discourse coherence and in the field of text generation. The set of relations proposed in Rhetorical Structure Theory (Mann \& Thompson, 1987) has had particular influence in both of these fields. But the widespread adoption of “relational” terminology belies a certain amount of confusion about the relational constructs themselves: No two theorists use exactly the same set of relations, and often there seems no motivation for introducing a new relation beyond considerations of descriptive adequacy or engineering expedience. To alleviate this confusion, it is useful to think of relations not just as constructs with descriptive or operational utility, but as constructs with psychological reality, modelling real cognitive processes in readers and writers. This conception of coherence relations suggests a methodology for delineating a set of relations to work with. Evidence that a relation is actually used by speakers of a language can be obtained by looking at the language itself—in particular by looking at the range of cue phrases the language provides for signalling relations. It is to be expected that simple methods will have evolved for signalling the relations we find most useful. This article presents a bottom‐up methodology for determining a set of relations on the basis of the cue phrases that can be used to mark them in text. This methodology has the advantage of starting from concrete linguistic data, rather than from controversial assumptions about notions like “intention” and “semantics.”},
+  groups       = {Argument Mining},
+  publisher    = {Routledge},
+}
+
+@Article{Moens2018,
+  author       = {Moens, Marie-Francine},
+  date         = {2018},
+  journaltitle = {Argument & Computation},
+  title        = {Argumentation mining: How can a machine acquire common sense and world knowledge?},
+  doi          = {10.3233/AAC-170025},
+  issn         = {1946-2174},
+  number       = {1},
+  pages        = {1--14},
+  volume       = {9},
+  abstract     = {Argumentation mining is an advanced form of human language understanding by the machine. This is a challenging task for a machine. When sufficient explicit discourse markers are present in the language utterances, the argumentation can be interpreted by the machine with an acceptable degree of accuracy. However, in many real settings, the mining task is difficult due to the lack or ambiguity of the discourse markers, and the fact that a substantial amount of knowledge needed for the correct recognition of the argumentation, its composing elements and their relationships is not explicitly present in the text, but makes up the background knowledge that humans possess when interpreting language. In this article1 1 The article is the written version of a keynote lecture given at COMMA 2016, the 6th International Conference on Computational Models of Argument, on September 13, 2016 at Potsdam University, Germany. we focus on how the machine can automatically acquire the needed common sense and world knowledge. As very few research has been done in this respect, many of the ideas proposed in this article are tentative, but start being researched. The article is the written version of a keynote lecture given at COMMA 2016, the 6th International Conference on Computational Models of Argument, on September 13, 2016 at Potsdam University, Germany. We give an overview of the latest methods for human language understanding that map language to a formal knowledge representation that facilitates other tasks (for instance, a representation that is used to visualize the argumentation or that is easily shared in a decision or argumentation support system). Most current systems are trained on texts that are manually annotated. Then we go deeper into the new field of representation learning that nowadays is very much studied in computational linguistics. This field investigates methods for representing language as statistical concepts or as vectors, allowing straightforward methods of compositionality. The methods often use deep learning and its underlying neural network technologies to learn concepts from large text collections in an unsupervised way (i.e., without the need for manual annotations). We show how these methods can help the argumentation mining process, but also demonstrate that these methods need further research to automatically acquire the necessary background knowledge and more specifically common sense and world knowledge. We propose a number of ways to improve the learning of common sense and world knowledge by exploiting textual and visual data, and touch upon how we can integrate the learned knowledge in the argumentation mining process.},
+  groups       = {Argument Mining},
+  keywords     = {Natural language understanding, representation learning, argumentative text processing},
+  publisher    = {IOS Press},
+}
+
+@InProceedings{Lippi2015,
+  author    = {Lippi, Marco and Torroni, Paolo},
+  booktitle = {Proceedings of the 24th International Conference on Artificial Intelligence},
+  date      = {2015},
+  title     = {Context-Independent Claim Detection for Argument Mining},
+  isbn      = {9781577357384},
+  location  = {Buenos Aires, Argentina},
+  pages     = {185–191},
+  publisher = {AAAI Press},
+  series    = {IJCAI'15},
+  abstract  = {Argumentation mining aims to automatically identify structured argument data from
+unstructured natural language text. This challenging, multi-faceted task is recently
+gaining a growing attention, especially due to its many potential applications. One
+particularly important aspect of argumentation mining is claim identification. Most
+of the current approaches are engineered to address specific domains. However, argumentative
+sentences are often characterized by common rhetorical structures, independently of
+the domain. We thus propose a method that exploits structured parsing information
+to detect claims without resorting to contextual information, and yet achieve a performance
+comparable to that of state-of-the-art methods that heavily rely on the context.},
+  groups    = {Argument Mining},
+  numpages  = {7},
+}
+
+@InProceedings{Ashley2013a,
+  author    = {Ashley, Kevin D. and Walker, Vern R.},
+  booktitle = {Proceedings of the Fourteenth International Conference on Artificial Intelligence and Law},
+  date      = {2013},
+  title     = {Toward Constructing Evidence-Based Legal Arguments Using Legal Decision Documents and Machine Learning},
+  doi       = {10.1145/2514601.2514622},
+  isbn      = {9781450320801},
+  location  = {Rome, Italy},
+  pages     = {176–180},
+  publisher = {Association for Computing Machinery},
+  series    = {ICAIL '13},
+  url       = {https://doi.org/10.1145/2514601.2514622},
+  abstract  = {This paper explores how to extract argumentation-relevant information automatically
+from a corpus of legal decision documents, and how to build new arguments using that
+information. For decision texts, we use the Vaccine/Injury Project (V/IP) Corpus,
+which contains default-logic annotations of argument structure. We supplement this
+with presuppositional annotations about entities, events, and relations that play
+important roles in argumentation, and about the level of confidence that arguments
+would be successful. We then propose how to integrate these semantic-pragmatic annotations
+with syntactic and domain-general semantic annotations, such as those generated in
+the DeepQA architecture, and outline how to apply machine learning and scoring techniques
+similar to those used in the IBM Watson system for playing the Jeopardy! question-answer
+game. We replace this game-playing goal, however, with the goal of learning to construct
+legal arguments.},
+  address   = {New York, NY, USA},
+  groups    = {Argument Mining},
+  keywords  = {IBM Watson, text annotation, default-logic framework, DeepQA, legal argumentation, presuppositional annotation},
+  numpages  = {5},
+}
+
+@InProceedings{Ashley2013,
+  author    = {Ashley, Kevin D. and Walker, Vern R.},
+  booktitle = {Proceedings of the Fourteenth International Conference on Artificial Intelligence and Law},
+  date      = {2013},
+  title     = {Toward Constructing Evidence-Based Legal Arguments Using Legal Decision Documents and Machine Learning},
+  doi       = {10.1145/2514601.2514622},
+  isbn      = {9781450320801},
+  location  = {Rome, Italy},
+  pages     = {176–180},
+  publisher = {Association for Computing Machinery},
+  series    = {ICAIL '13},
+  url       = {https://doi.org/10.1145/2514601.2514622},
+  abstract  = {This paper explores how to extract argumentation-relevant information automatically
+from a corpus of legal decision documents, and how to build new arguments using that
+information. For decision texts, we use the Vaccine/Injury Project (V/IP) Corpus,
+which contains default-logic annotations of argument structure. We supplement this
+with presuppositional annotations about entities, events, and relations that play
+important roles in argumentation, and about the level of confidence that arguments
+would be successful. We then propose how to integrate these semantic-pragmatic annotations
+with syntactic and domain-general semantic annotations, such as those generated in
+the DeepQA architecture, and outline how to apply machine learning and scoring techniques
+similar to those used in the IBM Watson system for playing the Jeopardy! question-answer
+game. We replace this game-playing goal, however, with the goal of learning to construct
+legal arguments.},
+  address   = {New York, NY, USA},
+  groups    = {AI and Law},
+  keywords  = {IBM Watson, text annotation, default-logic framework, DeepQA, legal argumentation, presuppositional annotation},
+  numpages  = {5},
+}
+
+@Article{Shulayeva2017,
+  author       = {Shulayeva, Olga and Siddharthan, Advaith and Wyner, Adam},
+  date         = {2017},
+  journaltitle = {Artificial Intelligence and Law},
+  title        = {Recognizing cited facts and principles in legal judgements},
+  doi          = {10.1007/s10506-017-9197-6},
+  issn         = {1572-8382},
+  number       = {1},
+  pages        = {107--126},
+  url          = {https://doi.org/10.1007/s10506-017-9197-6},
+  volume       = {25},
+  abstract     = {In common law jurisdictions, legal professionals cite facts and legal principles from precedent cases to support their arguments before the court for their intended outcome in a current case. This practice stems from the doctrine of stare decisis, where cases that have similar facts should receive similar decisions with respect to the principles. It is essential for legal professionals to identify such facts and principles in precedent cases, though this is a highly time intensive task. In this paper, we present studies that demonstrate that human annotators can achieve reasonable agreement on which sentences in legal judgements contain cited facts and principles (respectively, $$\kappa =0.65$$and $$\kappa =0.95$$for inter- and intra-annotator agreement). We further demonstrate that it is feasible to automatically annotate sentences containing such legal facts and principles in a supervised machine learning framework based on linguistic features, reporting per category precision and recall figures of between 0.79 and 0.89 for classifying sentences in legal judgements as cited facts, principles or neither using a Bayesian classifier, with an overall $$\kappa$$of 0.72 with the human-annotated gold standard.},
+  groups       = {Argument Mining, AI and Law},
+  refid        = {Shulayeva2017},
+}
+
+@InProceedings{Sardianos2015,
+  author    = {Sardianos, Christos and Katakis, Ioannis Manousos and Petasis, Georgios and Karkaletsis, Vangelis},
+  booktitle = {Proceedings of the 2nd Workshop on Argumentation Mining},
+  date      = {2015-06},
+  title     = {Argument Extraction from News},
+  doi       = {10.3115/v1/W15-0508},
+  location  = {Denver, CO},
+  pages     = {56--66},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/W15-0508},
+  groups    = {Argument Mining},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
@@ -5412,4 +5548,5 @@ and discuss challenges and perspectives of this exciting new research area.},
 0 AllEntriesGroup:;
 1 StaticGroup:Ethical AI\;0\;0\;0x8a8a8aff\;\;Literature related to both AI ethics as well as technical solutions for implementing ethical AI\;;
 1 StaticGroup:AI and Law\;0\;1\;0x8a8a8aff\;\;\;;
+1 StaticGroup:Argument Mining\;0\;0\;0x8a8a8aff\;\;\;;
 }
