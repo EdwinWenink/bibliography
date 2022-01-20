@@ -3356,11 +3356,13 @@ url = {https://www.frontiersin.org/article/10.3389/frobt.2018.00015},
 volume = {5},
 year = {2018}
 }
-@inproceedings{Sari2016,
-author = {Sari, Yunita and Stevenson, Mark},
-booktitle = {CLEF},
-title = {{Exploring Word Embeddings and Character N-Grams for Author Clustering}},
-year = {2016}
+
+@InProceedings{Sari2016,
+  author    = {Sari, Yunita and Stevenson, Mark},
+  booktitle = {CLEF},
+  title     = {{Exploring Word Embeddings and Character N-Grams for Author Clustering}},
+  groups    = {NLP},
+  year      = {2016},
 }
 @incollection{Sayed2008,
 abstract = {Ontology learning from text is considered as an appealing and challeging alternative to address the shortcomings of the hand-crafted ontologies. In this paper, we present OLea, a new framework for ontology learning from text. The proposal is a hybrid approach combining the pattern-based and the distributionnal approaches. It addresses key issues in the area of ontology learning: context-dependency, low recall of the pattern-based approach, low precision of the distributionnal approach, and finally ontology evolution. Experiments performed at each stage of the learning process show the advantages and drawbacks of the proposal.},
@@ -4681,7 +4683,7 @@ year = {2016}
   series    = {NIPS'16},
   abstract  = {The blind application of machine learning runs the risk of amplifying biases present in data. Such a danger is facing us with word embedding, a popular framework to represent text data as vectors which has been used in many machine learning and natural language processing tasks. We show that even word embeddings trained on Google News articles exhibit female/male gender stereotypes to a disturbing extent. This raises concerns because their widespread use, as we describe, often tends to amplify these biases. Geometrically, gender bias is first shown to be captured by a direction in the word embedding. Second, gender neutral words are shown to be linearly separable from gender definition words in the word embedding. Using these properties, we provide a methodology for modifying an embedding to remove gender stereotypes, such as the association between the words receptionist and female, while maintaining desired associations such as between the words queen and female. Using crowd-worker evaluation as well as standard benchmarks, we empirically demonstrate that our algorithms significantly reduce gender bias in embeddings while preserving the its useful properties such as the ability to cluster related concepts and to solve analogy tasks. The resulting embeddings can be used in applications without amplifying gender bias.},
   address   = {Red Hook, NY, USA},
-  groups    = {Ethical AI},
+  groups    = {Ethical AI, NLP},
   numpages  = {9},
 }
 
@@ -5041,7 +5043,7 @@ the models on multiple contexts increases robustness and improves overall perfor
 when evaluating on previously unseen contexts. Finally, we found that pooling the
 training data from all the contexts enhances the models' in-context performance.},
   address   = {New York, NY, USA},
-  groups    = {AI and Law},
+  groups    = {AI and Law, NLP},
   keywords  = {domain adaptation, annotation, transfer learning, document segmentation, multi-lingual sentence embeddings, adjudicatory decisions},
   numpages  = {10},
 }
@@ -5166,7 +5168,7 @@ training data from all the contexts enhances the models' in-context performance.
   url          = {https://doi.org/10.1007/s10506-018-9236-y},
   volume       = {27},
   abstract     = {The automated identification of national implementations (NIMs) of European directives by text similarity techniques has shown promising preliminary results. Previous works have proposed and utilized unsupervised lexical and semantic similarity techniques based on vector space models, latent semantic analysis and topic models. However, these techniques were evaluated on a small multilingual corpus of directives and NIMs. In this paper, we utilize word and paragraph embedding models learned by shallow neural networks from a multilingual legal corpus of European directives and national legislation (from Ireland, Luxembourg and Italy) to develop unsupervised semantic similarity systems to identify transpositions. We evaluate these models and compare their results with the previous unsupervised methods on a multilingual test corpus of 43 Directives and their corresponding NIMs. We also develop supervised machine learning models to identify transpositions and compare their performance with different feature sets.},
-  groups       = {AI and Law},
+  groups       = {AI and Law, NLP},
   refid        = {Nanda2019},
 }
 
@@ -5181,7 +5183,7 @@ training data from all the contexts enhances the models' in-context performance.
   publisher = {IOS Press},
   url       = {https://ebooks.iospress.nl/publication/45751},
   volume    = {294},
-  groups    = {AI and Law},
+  groups    = {AI and Law, NLP},
 }
 
 @Article{Medvedeva2020,
@@ -5207,7 +5209,7 @@ training data from all the contexts enhances the models' in-context performance.
   doi    = {10.18421/TEM74-31},
   pages  = {902-914},
   volume = {7},
-  groups = {AI and Law},
+  groups = {AI and Law, NLP},
 }
 
 @InProceedings{Ferre2018,
@@ -5218,7 +5220,7 @@ training data from all the contexts enhances the models' in-context performance.
   location  = {Miyazaki, Japan},
   publisher = {European Language Resources Association (ELRA)},
   url       = {https://aclanthology.org/L18-1543},
-  groups    = {AI and Law},
+  groups    = {AI and Law, NLP},
 }
 
 @InProceedings{Jang2019,
@@ -5226,7 +5228,7 @@ training data from all the contexts enhances the models' in-context performance.
   date   = {2019},
   title  = {Selection and Interpretation of Embedding Subspace forQuery Classification},
   url    = {https://ears2019.github.io/Jang-EARS2019.pdf},
-  groups = {AI and Law},
+  groups = {AI and Law, NLP},
 }
 
 @InProceedings{Mandal2017,
@@ -5259,7 +5261,7 @@ embedding based approaches perform better than other approaches. We also demonst
 that the proposed embedding-based methodologies significantly outperforms a baseline
 hybrid methodology involving both network-based and text-based similarity.},
   address   = {New York, NY, USA},
-  groups    = {AI and Law},
+  groups    = {AI and Law, NLP},
   keywords  = {Doc2vec, Court Cases, Legal Information Retrieval, Topic Modeling, Legal Document Similarity, Word2vec, Word Embeddings},
   numpages  = {9},
 }
@@ -5800,6 +5802,7 @@ legal arguments.},
   url          = {https://aclanthology.org/Q15-1016},
   volume       = {3},
   abstract     = {Recent trends suggest that neural-network-inspired word embedding models outperform traditional count-based distributional models on word similarity and analogy detection tasks. We reveal that much of the performance gains of word embeddings are due to certain system design choices and hyperparameter optimizations, rather than the embedding algorithms themselves. Furthermore, we show that these modifications can be transferred to traditional distributional models, yielding similar gains. In contrast to prior reports, we observe mostly local or insignificant performance differences between the methods, with no global advantage to any single approach over the others.},
+  groups       = {NLP},
   location     = {Cambridge, MA},
   publisher    = {MIT Press},
 }
@@ -5812,6 +5815,27 @@ legal arguments.},
   eprintclass = {cs.CL},
   eprinttype  = {arXiv},
   abstract    = {An experimental approach to studying the properties of word embeddings is proposed. Controlled experiments, achieved through modifications of the training corpus, permit the demonstration of direct relations between word properties and word vector direction and length. The approach is demonstrated using the word2vec CBOW model with experiments that independently vary word frequency and word co-occurrence noise. The experiments reveal that word vector length depends more or less linearly on both word frequency and the level of noise in the co-occurrence distribution of the word. The coefficients of linearity depend upon the word. The special point in feature space, defined by the (artificial) word with pure noise in its co-occurrence distribution, is found to be small but non-zero.},
+  groups      = {NLP},
+}
+
+@Article{Mehta2021,
+  author       = {Mehta, Vivek and Bawa, Seema and Singh, Jasmeet},
+  date         = {2021-09},
+  journaltitle = {Complex & intelligent systems},
+  title        = {WEClustering: word embeddings based text clustering technique for large datasets},
+  doi          = {10.1007/s40747-021-00512-9},
+  issn         = {2199-4536},
+  language     = {eng},
+  number       = {34777978},
+  pages        = {1--14},
+  url          = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8421191/},
+  abstract     = {A massive amount of textual data now exists in digital repositories in the form of research articles, news articles, reviews, Wikipedia articles, and books, etc. Text clustering is a fundamental data mining technique to perform categorization, topic extraction, and information retrieval. Textual datasets, especially which contain a large number of documents are sparse and have high dimensionality. Hence, traditional clustering techniques such as K-means, Agglomerative clustering, and DBSCAN cannot perform well. In this paper, a clustering technique especially suitable to large text datasets is proposed that overcome these limitations. The proposed technique is based on word embeddings derived from a recent deep learning model named "Bidirectional Encoders Representations using Transformers". The proposed technique is named as WEClustering. The proposed technique deals with the problem of high dimensionality in an effective manner, hence, more accurate clusters are formed. The technique is validated on several datasets of varying sizes and its performance is compared with other widely used and state of the art clustering techniques. The experimental comparison shows that the proposed clustering technique gives a significant improvement over other techniques as measured by metrics such Purity and Adjusted Rand Index.},
+  comment      = {34777978[pmid]
+PMC8421191[pmcid]},
+  database     = {PubMed},
+  groups       = {NLP},
+  keywords     = {BERT, Big data, Document clustering, Pattern recognition, Semantic clustering, Text mining},
+  publisher    = {Springer International Publishing},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
@@ -5823,5 +5847,5 @@ legal arguments.},
 1 StaticGroup:Argument Mining\;0\;1\;0x8a8a8aff\;\;\;;
 1 StaticGroup:XAI\;0\;0\;0x8a8a8aff\;\;Explainable AI\;;
 1 StaticGroup:Case-based reasoning\;0\;1\;0x8a8a8aff\;\;\;;
-1 StaticGroup:NLP\;0\;1\;0x8a8a8aff\;\;Natural Language Processing & Distributional Semantics\;;
+1 StaticGroup:NLP\;0\;0\;0x8a8a8aff\;\;Natural Language Processing & Distributional Semantics\;;
 }
